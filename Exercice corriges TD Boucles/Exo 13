@@ -1,0 +1,28 @@
+Algorithme Exo13
+Variable N,I,Som,Cpt : entier
+Debut 
+	Répeter 
+		Ecrire("Saisir la valeur de la serie:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Cpt <-- 0
+	Som <-- 0
+	Pour I <-- 1 à N Faire
+		Si (N mod 2 = 0) alors
+			Cpt < -- Cpt + 1
+		Finsi
+	FinPour
+	Si (Cpt = 2) alors
+		Ecrire(I, "est un nombre premier")
+	Finsi
+	
+	Pour I <-- 1 à N - 1 Faire
+		Si (N mod 2 = 0) alors
+			Som <-- Som + I
+		Finsi
+	FinPour
+	Si  (Som = N) alors
+		Ecrire(N, "est un nombre parfait")
+	Finsi
+	
+			

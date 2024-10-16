@@ -1,0 +1,16 @@
+Algorithme Positif_Negatif
+Variable a,b : reel 
+Debut
+	Ecrire("Veillez entrer deux nombre")
+	Lire(a,b)
+	Si (a>0) alors
+	Ecrire(a,"est positif")
+	Sinon 
+	Ecrire(a,"est negatif")
+	FinSi
+	Si (b>0) alors
+	Ecrire(b,"est positif")
+	Sinon
+	Ecrire(b,"est negatif")
+	FinSi
+Fin

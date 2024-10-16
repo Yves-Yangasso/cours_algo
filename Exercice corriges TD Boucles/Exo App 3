@@ -1,0 +1,37 @@
+Algorithme Exo3
+Variable cptimpair,cptpair,I,N,Som,val : entier
+		 moy,pourc : réel
+Debut
+	Répeter 
+		Ecrire("Saisir la valeur de la serie:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Som <-- 0
+	cptpair <-- 0
+	cptimpair <-- 0
+	Pour I <-- 1 à N Faire 
+		Répeter 
+			Ecrire("Saisir la valeur de la serie:")
+			Lire(val)
+		Jusqu'à (N > 0)
+		Si (val mod 2 = 0) alors
+			Som	<-- Som + val
+			cptpair <-- cptpair + 1
+			Sinon 
+			Si (val mod 5 = 0) alors
+				cptimpair <-- cptimpair + 1
+			Finsi
+		Finsi
+	FinPour
+	Si (cptpair = 0) alors
+		Ecrire("Aucun nombre pair")
+		Sinon 
+		moy <-- Som / cptpair
+		Ecrire("La moyenne des nombres pairs est :",moy)
+	Finsi
+	pourc <-- (cptimpair * 100) / N
+	Ecrire("Le pourcentage de presence des nombres impairs divisibles par 5 est :",pourc)
+	Fin
+			
+		
+			

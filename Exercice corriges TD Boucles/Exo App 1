@@ -1,0 +1,19 @@
+Algorithme Exo1
+Variable I,N,cpt : entier
+Debut
+	Répeter
+		Ecrire("Saisir un entier positif:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	cpt <-- 0
+	Pour I <-- 1 à N Faire
+		Si (N mod I = 0) alors
+			cpt <-- cpt + 1
+		Finsi
+	FinPour
+	Si (cpt = 2) alors
+		Ecrire(N,"est premier")
+		Sinon 
+		Ecrire(N,"n'est pas premier")
+	Finsi	
+Fin

@@ -1,0 +1,17 @@
+Algorithme Comparaison
+Variable a,b,c,min,max :entier
+Debut
+	Ecrire("Entrer trois entiers")
+	Lire(a,b,c)
+	Si (a > b) alors
+	max <-- a
+	Sinon 
+	max <-- b
+	Finsi
+	Si (c > max) alors
+	max <-- c
+	Sinon 
+	min <-- c
+	Finsi
+	Ecrire("Le maximum = ",max,"et le minimum = ",min)
+Fin 

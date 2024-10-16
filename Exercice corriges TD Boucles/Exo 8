@@ -1,0 +1,26 @@
+Algorithme Exo8
+Variable I,N,Som_diviseur : entier
+
+Debut
+	Ecrire("Saisir une valeur entiere positive :")
+	Lire(N)
+	Tant que (N < 0) Faire
+	Ecrire("Saisir une valeur entiere positive :")
+	Lire(N)
+	FinTantQue
+	Som_diviseur <-- 0
+	Pour I <-- 1 à (N - 1) Faire
+		Si ((N mod I) = 0) alors 
+			Som_diviseur <-- Som_diviseur + I
+		Finsi
+	FinPour
+	Si (Som_diviseur = N) alors
+		Ecrire("Le nombre saisie est un nombre parfait")
+		Sinon
+		Ecrire("Le nombre saisie n'est pas un nombre parfait")
+	Finsi
+Fin 
+
+
+			
+		

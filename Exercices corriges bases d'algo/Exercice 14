@@ -1,0 +1,24 @@
+Algorithme Equation
+Variable a,b,c,D,s,s1,s2 : reel
+Debut 
+	Ecrire("Veillez entrer trois valeurs : ")
+	Lire(a,b,c)
+	Si (a!=0) alors
+	D <- b^2-4(a*c)
+	FinSi
+	Si (D<0) alors 
+	Ecrire("L'equation n'admet pas de solution")
+	FinSi
+	Si (D==0) alors
+	s <- -b/2(a*b)
+	Ecrire("La solution de l'equation est : ",s)
+	FinSi
+	Si (D>0) alors 
+	s1 <- -b-sqrt(D)/2*a*b
+	s2 <- b-sqrt(D)/2*a*b
+	Ecrire("Les solutions de l'equation sont :",s1,"et",s2)
+	FinSi 
+	Si (a==0) alors 
+	Ecrire("Celle-ci n'est pas une equation du second degres")
+	FinSi
+Fin

@@ -1,0 +1,14 @@
+Algorithme Exo
+Variable N,S,I : entier
+Debut
+	Ecrire("Veillez saisir un nombre entier positif")
+	Lire(N)
+	Tantque (N mod 2 = 0) Faire
+	lire(N)
+	FinTantque
+	S <-- 0
+	Pour I <-- 1 à N pas 1 Faire
+	S = S + I
+	Ecrire("La somme de ces nombres paires est : ",S)
+	FinPour 
+Fin 	

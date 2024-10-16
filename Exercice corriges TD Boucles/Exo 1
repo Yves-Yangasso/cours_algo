@@ -1,0 +1,25 @@
+Algorithme Exo1
+Variable nbr,PG,PP,I : entier 
+Debut
+	Pour I <-- 1 à 10 Faire
+		Ecrire("Entrer un nombre numero ",I," :")
+		Lire(nbr)
+		Si (I = 1) alors
+			PG <-- nbr
+			PP <-- nbr
+			Sinon
+			Si (nbr > PG) alors
+				PG <-- nbr
+				Sinon
+				Si (nbr < PP)alors
+					PP <-- nbr
+				Finsi
+			Finsi
+		Finsi
+	FinPour
+	Ecrire("Le nombre le plus grand est :",PG)
+	Ecrire("Le nombre le plut petit est :",PP)
+Fin
+	
+	
+	

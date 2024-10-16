@@ -1,0 +1,13 @@
+Algorithme Carre
+Variable c,p,v,s : reel
+Debut 
+	Ecrire("Veillez enter le côté du carré")
+	Lire(c)
+	p<-c*4
+	Ecrire("Le pèrimétre du carré est : ",p)
+	v<-c^3
+	Ecrire("Le volume du carré est : ",v)
+	s<-sqr(c)
+	Ecrire("La surface du carré est : ",s)
+Fin
+	

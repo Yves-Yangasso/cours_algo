@@ -1,0 +1,20 @@
+Algorithme Age
+Variable age : entier
+Debut
+	Ecrire("Veillez entrer votre age :")
+	Lire(age)
+	Si (age>=6 ou age<=7) alors 
+	Ecrire("Vous etes poussin.")
+	Finsi
+	Si (age>=8 ou age<=9) alors 
+	Ecrire("Vous etes pupille.")
+	Finsi
+	Si (age>=10 ou age<=11) alors 
+	Ecrire("Vous etes minime.")
+	Finsi
+	Si (age>=12 ou age<=17) alors 
+	Ecrire("Vous etes cadet.")
+	Sinon 
+	Ecrire("Vous etes adulte.")
+	Finsi
+Fin

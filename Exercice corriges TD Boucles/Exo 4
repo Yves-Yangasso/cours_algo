@@ -1,0 +1,17 @@
+Algorithme Exo4
+Variable I,N,Som : entier
+		 moy : réel
+Debut
+	Répeter 
+		Ecrire("Saisir une valeur entiere positive :")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Som <-- 0
+	I <-- 1
+	TantQue (I <= N) Faire	
+		Som <-- Som + I
+		I <-- I + 1
+	FinTantQue
+	moy <-- Som / N
+	Ecrire("La moyenne des valeurs comprises entre 1 et la valeur saisie est : ",moy)
+Fin

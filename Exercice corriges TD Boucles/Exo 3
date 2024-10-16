@@ -1,0 +1,21 @@
+Algorithme Exo3
+Variable Som,nbr,I,N : entier
+		 moy : réel
+Debut
+	Répeter 
+	Ecrire("Saisissez une serie de N valeurs :")
+	Lire(N)
+	Jusqu'à (N > 0)
+	I <-- 1
+	Som <-- 0
+		TantQue (I <= N) Faire
+		Ecrire("Donner le nombre numero ",I,":")
+		Lire(nbr)
+		Som <-- Som + nbr
+		I <-- I + 1
+		FinTantQue 
+	moy <-- Som / N
+	Ecrire("La moyenne des valeurs de la serie est :",moy)
+Fin
+
+	

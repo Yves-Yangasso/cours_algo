@@ -1,0 +1,20 @@
+Algorithme Exo1
+Variable I,N,F,P,J : entier
+		 Result : réel
+Debut
+	Répeter
+		Ecrire("Saisir un entier positif:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Result <-- 0
+	Pour I <-- 1 à N Faire
+		F <-- 1
+		P <-- 1
+		Pour J <-- 1 à I Faire
+			F <-- F * J
+			P <-- P * N
+		FinPour
+		Result <-- Result + F + P - ((3 * i)/N)
+	FinPour
+	Ecrire("Le resultat de l'expression est :",Result)
+Fin 

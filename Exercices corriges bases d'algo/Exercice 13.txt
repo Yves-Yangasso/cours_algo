@@ -1,0 +1,17 @@
+Algorithme Equation
+Variable a,b,s : reel
+Debut
+	Ecrire("Veillez donner deux reels")
+	Lire(a,b)
+	Si (a!=0) alors
+	s <- -b/a
+	Ecrire("La solution de l'equation est : ",s)
+	Sinon 
+	Si (b==0) alors 
+	Ecrire("Tout reel est solution de l'equation")
+	Sinon
+	Ecrire("L'equation n'admet pas de solution")
+	FinSi
+Fin
+
+	

@@ -1,0 +1,15 @@
+Algorithme Exo14
+Variable N,I,cpt : entier
+Debut 
+	Répeter 
+		Ecrire("Saisir un nombre pair:")
+		Lire(N)
+		cpt <-- 0
+		Pour I <-- 1 à N Faire
+			Si (N mod I = 0) alors
+				cpt <-- cpt + 1
+			Finsi
+		FinPour
+	Jusqu'à (cpt = 2)
+	Ecrire(N,"est premier")
+Fin 

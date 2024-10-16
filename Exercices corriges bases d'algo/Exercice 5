@@ -1,0 +1,8 @@
+Algorithme Produit 
+Variable p,a,b : reel
+Debut 
+	Ecrire"(Veillez saisir deux nombres : ")
+	Lire(a,b)
+	p <-- a * b
+	Ecrire("a * b = ",p)
+Fin

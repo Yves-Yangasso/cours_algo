@@ -1,0 +1,6 @@
+Algorithme Comparaison
+Variable a,b,c,min,max :entier
+Debut
+Ecrire("Entrer trois entiers")
+Lire(a,b,c)
+

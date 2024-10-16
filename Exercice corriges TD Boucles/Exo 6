@@ -1,0 +1,41 @@
+%Methode1%
+Algorithme Exo6
+Variable Som,I,N,cpt : entier
+		 Moy : réel
+Debut
+	Répeter 
+		Ecrire("Saisir une valeur entiere positive :")
+		Lire(N)
+	Jusqu'à (N > 0)
+		Som <-- 0
+		cpt <-- 0
+		Pour I <-- 2 à N pas 2 Faire
+			Som <-- SOm + I
+			cpt <-- cpt + 1
+		FinPour 
+		Si (cpt != 0) alors
+		Moy <-- Som / cpt
+		Ecrire("La moyenne des nombres pairs est :",Moy)
+Fin
+
+%Methode2%
+Algorithme Exo6
+Variable Som,I,N,cpt : entier 
+		 Moy : réel
+Debut 
+	Répeter
+		Ecrire("Entrer une valeur entiere positive :")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Som <-- 0
+	Pour I <-- 1 à N Faire
+		Si (N mod 2 = 0) alors
+			Ecrire(I,"est pair")
+		Finsi
+		Som <-- Som + I
+		cpt <-- cpt + 1
+	FinPour
+	si (cpt != 0) alors
+	Moy <-- Som / N
+	Ecrire("La moyenne des nombres pairs est :",Moy)
+Fin

@@ -1,0 +1,8 @@
+Algorithme Difference
+Variable d,a,b : reel 
+Debut 
+	Ecrire("Veillez entrer deux nombres")
+	Lire(a,b)
+	d <-- a - b
+	Ecrire("a - b = ",d)
+Fin 

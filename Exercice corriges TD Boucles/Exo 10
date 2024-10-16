@@ -1,0 +1,20 @@
+Algorithme Exo10
+Variable Som_div,N,I,J : entier
+Debut
+	Répeter 
+		Ecrire("Saisir une valeur positive:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	
+	Pour I <-- 1 à N Faire
+		Som_div <-- 0
+		Pour J <-- 1 à I Faire
+			Si (I mod J) = 0 alors
+				Som_div <-- Som_div + J
+			Finsi
+		FinPour
+			Si (Som_div = I) alors
+				Ecrire("La valeur saisie est un nombre parfait")
+			Finsi
+	FinPour
+Fin	

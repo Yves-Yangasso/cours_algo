@@ -1,0 +1,12 @@
+Algorithme Prix_produit 
+Variable nb,pht,ttva,pttc : reel
+Debut 
+	Ecrire("Saisir le prix hors taxe : ")
+	Lire(pht)
+	Ecrire("Entrer le nombre d'article : ")
+	Lire(nb)
+	Ecrire("Entrer le taux de tva : ")
+	Lire(ttva)
+	pttc <-- nb * pht * (1 + ttva)
+	Ecrire("Le prix tout taxe est : ",pttc)
+Fin

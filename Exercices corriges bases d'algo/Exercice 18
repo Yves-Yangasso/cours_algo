@@ -1,0 +1,31 @@
+Algorithme Verification
+Variable sexe : caractère 
+		 taille,BMI : réel 
+		 poids,PI : réel
+Debut
+	Ecrire("Veillez saisir votre sexe : ")
+	Lire(sexe)
+	Ecrire("Veillez entrer votre taille en cm :")
+	Lire(taille)
+	Si sexe = "M" alors 
+	PI <-- (taille - 100)-(taille - 150) / 4
+	Finsi
+	Si sexe = "F" alors 
+	PI <-- (taille - 100)-(taille - 120) / 4
+	Finsi
+	Ecrire("Le poids ideal est : ",poids)
+	Ecrire("Veillez saisir votre poids : ")
+	Lire(poids)
+	Ecrire("Veillez saisir de nouveau votre taille en m : ")
+	Lire(taille)
+	BMI <-- poids / sqr(taille)
+	Si (BMI <= 27) alors
+	Ecrire("Vous etes normale.")
+	Finsi
+	Si (BMI > 27 ou BMI < 32) alors
+	Ecrire("Vous etes obèse.")
+    Finsi
+	Si (BMI >= 32) alors 
+	Ecrire("Vous etes malade.")
+	Finsi
+Fin

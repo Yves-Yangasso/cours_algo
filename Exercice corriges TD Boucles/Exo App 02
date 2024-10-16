@@ -1,0 +1,31 @@
+%Methode1%
+Algorithme Exo2
+Variable N,P,I,J : entier
+Debut 
+	Répeter 
+		Ecrire("Saisir la valeur de la serie:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Pour I <-- 1 à N Faire 
+		Si I mod 2 = 0 alors
+			Ecrire("La table de multiplication de ",I)
+			Pour J <-- 1 à 12 Faire
+				Ecrire(I, "*", J,"=",I * J)
+			FinPour
+		Finsi
+	FinPour
+Fin
+
+%Methode2%
+Debut
+	Répeter 
+		Ecrire("Saisir la valeur de la serie:")
+		Lire(N)
+	Jusqu'à (N > 0)
+	Pour I <-- 2 à N pas 2 Faire
+		Ecrire("La table de multiplication de ",I)
+		Pour J <-- 1 à 12 Faire
+				Ecrire(I, "*", J,"=",I * J)
+		FinPour
+	FinPour
+Fin

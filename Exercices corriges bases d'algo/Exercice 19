@@ -1,0 +1,12 @@
+Algorithme CAPACITE
+Variable nbr,octet,kilo_octet,mega_octet,giga_octet : entier 
+Debut 
+	Ecrire("Veillez donner un nombre en bit : ")
+	Lire(nbr)
+	octet <-- nbr div 8
+	kilo_octet <-- 1024 * octet
+	mega_octet <-- 1024 * kilo_octet 
+	giga_octet <-- 1024 * mega_octet
+	Ecrire("Le nombre saisit est egale à :",octet,"octet",",",kilo_octet,"kilo_octet",",",mega_octet,"mega_octet",",",giga_octet,"giga_octet")
+Fin
+	

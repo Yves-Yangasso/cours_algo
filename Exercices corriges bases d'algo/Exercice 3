@@ -1,0 +1,8 @@
+Algorithme Somme
+Variable s,a,b : reel
+Debut 
+	Ecrire("Veillez saisir deux entiers : ")
+	Lire(a,b)
+	s <-- a + b
+	Ecrire("a + b = ",s)
+Fin 

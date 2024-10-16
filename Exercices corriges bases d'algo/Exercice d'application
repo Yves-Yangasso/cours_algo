@@ -1,0 +1,25 @@
+Algorithme Calculatrice
+Variable op : chaine
+		 a,b : réel
+Debut 
+	Ecrire("Veillez saisir deux nombres : ")
+	Lire(a,b)
+	Ecrire("Veillez donner l'operateur : ")
+	Lire(op)
+	Cas (op) vaut 
+	"+" : Ecrire("La somme de a + b est :",a + b)
+	"-" : Ecrire("La difference de a - b est :",a - b)
+	"/" : Si (b != 0) alors
+		  Ecrire("La division de a / b est :",a / b)
+		  Sinon 
+		  Ecrire("La division de a / b est impossible")
+		  Finsi
+	"div" : Si (b != 0) alors
+	        Ecrire("La division entiere de a div b est :",a div b)
+		    Sinon
+			Ecrire("La division entiere de a div b est impossible")
+			Finsi
+	"*" : Ecrire("Le produit de a * b est :",a * b)
+	Fincas
+Finsi
+			

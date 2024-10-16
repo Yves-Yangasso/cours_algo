@@ -1,0 +1,18 @@
+Algorithme Date
+Variable jour,mois,annee : entier
+Debut
+	Ecrire("Veillez entrer la date separer par slash (/) :")
+	Lire(jour,mois,annee)
+	Si (jour < 0 et jour > 31) alors
+	Ecrire("Le jour entrer est invalide")
+	Finsi
+	Si (mois < 0 et mois > 12) alors
+	Ecrire("Le mois entrer est invalide")
+	Finsi
+	Si (annee < 0) alors
+	Ecrire("L'annee entrer est invalide.")
+	Sinon
+	Ecrire("La date :",jour,"/",mois,"/",annee,"est correcte.")
+Finsi
+	
+	

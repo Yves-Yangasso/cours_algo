@@ -1,0 +1,7 @@
+Algorithme Carre
+Variable c : reel
+Debut 
+	Ecrire("VEillez saisir un nombre : ")
+	Lire(c)
+	Ecrire("Son carre est : ",sqr(c))
+Fin 

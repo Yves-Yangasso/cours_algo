@@ -1,0 +1,11 @@
+Algorithme Echange 
+Variable a,b,c : entier 
+Debut 
+	Ecrire("Entrer deux entiers : ")
+	Lire(a,b)
+	c <-- a
+	a <-- b
+	b <-- c
+	Ecrire("a = ",a,"et","b = ",b)
+Fin 
+	

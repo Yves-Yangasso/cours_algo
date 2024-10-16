@@ -1,0 +1,13 @@
+Algorithme Exo2
+Variable N,I,result : entier
+Debut
+	Répeter
+		Ecrire("Saisir un entier positif")
+		Lire(N)
+	Jusqu'à (N > 0)
+	result <-- 0
+	Pour I <-- 1 à N Faire
+		Result <-- Result + (N - 2 * I)
+	FinPour
+	Ecrire("Le resultat de l'expression est :",Result)
+Fin 

@@ -1,0 +1,20 @@
+Algorithme Valeur_en_lettre
+Variable chiffre : entier
+Debut 
+	Ecrire("Donner un chiffre")
+	Lire(ch)
+	Selon(chiffre) Faire
+	0 : "Zero"
+	1 : "Un"
+	2 : "Deux"
+	3 : "Trois"
+	4 : "Quatre"
+	5 : "Cinq"
+	6 : "Six"
+	7 : "Sept"
+	8 : "Huit"
+	9 : "Neuf"
+	Sinon 
+	Ecrire("Ceci n'est pas un chiffre")
+	Finselon
+Fin

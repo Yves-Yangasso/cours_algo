@@ -1,0 +1,10 @@
+Algorithme Distance 
+Variable a,b,c,d,D : réel
+Debut
+	Ecrire("Veillez entrer les coordonnees du premier point : ")
+	Lire(a,b)
+	Ecrire("Veillez entrer les coordonnees du deuxieme point : ")
+	Lire(c,d)
+	D <-- sqrt((sqr(a - c)) + (sqr(b - d)))
+	Ecrire("La distance entre les deux points est : ",D)
+Fin

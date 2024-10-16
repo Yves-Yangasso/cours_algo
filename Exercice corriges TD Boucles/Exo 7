@@ -1,0 +1,44 @@
+%Methode1%
+Algorithme Exo7
+Variable I,N,cpt : entier 
+
+Debut
+	Répeter
+		Ecrire("Saisir une valeur entiere positive :")
+		Lire(N)
+	Jusqu'à (N > 0)
+	cpt <-- 0
+	Pour I <-- 1 à N Faire
+		Si (N mod I) = 0 alors
+			cpt <-- cpt + 1
+		Finsi
+	Finpour
+	Si (cpt = 2) alors
+		Ecrire(N,"est un nombre premier")
+		Sinon 
+		Ecrire(N,"n'est pas premier")
+	Finsi
+Fin
+
+%Methode2%	
+Algorithme Exo7boucletantque
+Debut			
+	N < -1
+	TantQue (N < 0)
+		Ecrire("Saisir une valeur entiere positive :")
+		Lire(N)
+	FinTantQue
+	I <-- 1
+	cpt <-- 0
+	TantQue (I <= N) Faire
+		Si (N mod I) = 0 alors
+			cpt <-- cpt + 1
+		Finsi
+	I <-- I + 1
+	FinTantQue 
+	Si (cpt = 2) alors 
+		Ecrire(N,"est un nombre premier")
+		Sinon
+		Ecrire(N,"n'est pas un nombre premier")
+	Finsi
+Fin 

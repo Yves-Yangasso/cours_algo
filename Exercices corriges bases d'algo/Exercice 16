@@ -1,0 +1,12 @@
+Algorithme Rectangle
+Variable L,l,d_p,p,s : reel
+Debut 
+	Ecrire("Veillez entrer la longueur et la largeur")
+	Lire(L,l)
+	p<-(L+l)*2
+	Ecrire("Le périmétre du rectangle est egale à : ",p)
+	d_p<-p/2
+	Ecrire("Le démi périmétre du rectangle est egale à : ",d_p)
+	s<-L*l
+	Ecrire("La surface du rectangle est egale à : ",s)
+Fin	

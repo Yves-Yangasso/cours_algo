@@ -1,0 +1,24 @@
+Algorithme Exo5
+Variable N,I,cptpos,cptneg,Nb : entier
+Debut
+	Répeter 
+		Ecrire("Saisir le nombre de serie de la valeur :")
+		Lire(N)
+	Jusqu'à (N > 0)
+	cptpos <-- 0
+	cptneg <-- 0
+	Pour I <-- 1 à N Faire
+		Ecrire("Entrer une valeur entiere ",I,": ")
+		Lire(Nb)
+		Si (Nb > 0) alors
+			cptpos <-- cptpos + 1
+			Sinon
+			Si (Nb < 0) alors
+				cptneg <-- cptneg + 1
+			Finsi
+		Finsi
+	FinPour
+	Ecrire("Les valeurs negatives de la serie sont :",cptneg)
+	Ecrire("Les valeurs positives de la serie sont :",cptpos)
+Fin
+	

@@ -1,0 +1,10 @@
+Algorithme Table_de_multiplication
+Variable N,P,I : entier
+Debut
+	Ecrire("Donner un entier positif : ")
+	Lire(N)
+	Pour I <-- 1 à 12 Faire
+	P <-- I * N
+	Ecrire("N * ",I,"=",P)
+	FinPOur
+Fin
